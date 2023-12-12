@@ -11,7 +11,7 @@ rect.addEventListener("mousemove", function (details) {
             insideval
         );
         gsap.to(rect, {
-            backgroundColor: `rgb(${redcolor}, 145, 45)`,
+            backgroundColor: `rgb(${redcolor}, 45, 4)`,
             ease: Power4,
         });
     } else {
